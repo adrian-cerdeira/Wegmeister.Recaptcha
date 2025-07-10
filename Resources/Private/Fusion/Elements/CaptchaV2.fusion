@@ -1,3 +1,4 @@
+// TODO 9.0 migration: Line 15: !! node.context.dimensions is removed in Neos 9.0. You can get node DimensionSpacePoints via node.dimensionSpacePoints now or use the `Neos.Dimension.*` helper.
 prototype(Wegmeister.Recaptcha:CaptchaV2.Definition) < prototype(Neos.Form.Builder:FormElement.Definition) {
     formElementType = 'Wegmeister.Recaptcha:CaptchaV2'
 
